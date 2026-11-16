@@ -1,0 +1,42 @@
+# .NET Build Artifacts
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+TestResults/
+coverage/
+
+# Node / Next.js Artifacts
+node_modules/
+.next/
+frontend/.next/
+frontend/out/
+frontend/build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local Runtime Data & Local PostgreSQL
+.local-pg/
+App_Data/
+storage_data/
+backend/src/VelitIQ.Api/App_Data/
+backend/src/VelitIQ.Api/storage_data/
+*.log
+
+# Environment & Secrets (Never commit real API keys or AD credentials)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+appsettings.Local.json
+appsettings.Secret.json
+
+# OS
+.DS_Store
+Thumbs.db
